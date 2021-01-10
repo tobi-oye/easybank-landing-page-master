@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap");
+// ### Primary
+
+$Dark-Blue: hsl(233, 26%, 24%);
+$Lime-Green: hsl(136, 65%, 51%);
+$Bright-Cyan: hsl(192, 70%, 51%);
+
+// ### Neutral
+
+$Grayish-Blue: hsl(233, 8%, 62%);
+$Light-Grayish-Blue: hsl(220, 16%, 96%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+}
+
+.box {
+  border: 1px solid black;
+}
+button {
+  border-radius: 2.5em;
+  padding: 10px 25px;
+  margin: 10px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    darken($Lime-Green, 10%),
+    $Bright-Cyan
+  );
+  border: 0px;
+  color: $White;
+}
