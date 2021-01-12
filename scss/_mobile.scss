@@ -2,6 +2,9 @@
 $hero-height: 396px;
 
 @media screen and (min-width: 0px) {
+  nav {
+    display: none;
+  }
   .container {
     text-align: center;
     h2 {
@@ -12,7 +15,7 @@ $hero-height: 396px;
       font-weight: bold;
       line-height: 1.5;
     }
-    header {
+    .sub-header {
       background-color: white;
       display: flex;
       justify-content: space-between;
@@ -107,7 +110,7 @@ $hero-height: 396px;
           margin-bottom: 10px;
           background-repeat: no-repeat;
           background-size: cover;
-          height: 281px;
+          height: -webkit-fill-available;
           border-radius: 1em 1em 0em 0em;
         }
         .image-currency {
