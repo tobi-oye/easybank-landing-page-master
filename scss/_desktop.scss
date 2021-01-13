@@ -1,0 +1,37 @@
+$plr: 200px;
+@media screen and (min-width: 1000px) {
+  .container {
+    overflow-x: hidden;
+    header {
+      background-color: white;
+      z-index: 1;
+      padding: 0px $plr;
+      nav > ul > li {
+        margin: 0px 30px;
+      }
+    }
+    section.section-one {
+      align-items: center;
+      padding: 0px 0px 0px $plr;
+      justify-content: space-between;
+      div.hero-background {
+        background-image: url("../images/bg-intro-desktop.svg");
+        flex-basis: 60%;
+        height: 606px;
+        padding: 0px;
+        background-size: 127% 147%;
+        background-position-y: -218px;
+        .hero-image {
+          background-size: cover;
+          height: 161%;
+          width: 72%;
+          top: -30%;
+          left: 39%;
+        }
+      }
+      div.section-one-sub-one {
+        flex-basis: 40%;
+      }
+    }
+  }
+}
