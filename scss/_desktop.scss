@@ -1,5 +1,5 @@
 $plr: 200px;
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1400px) {
   .container {
     overflow-x: hidden;
     header {
@@ -32,6 +32,37 @@ $plr: 200px;
       div.section-one-sub-one {
         flex-basis: 40%;
       }
+    }
+
+    section.section-two,
+    section.section-three {
+      padding: 100px $plr;
+    }
+
+    section.section-two {
+      h3 {
+        margin-bottom: 15px;
+      }
+      p {
+        line-height: 2;
+        font-size: 15px;
+      }
+      .section-two-sub-one {
+        width: 50%;
+      }
+    }
+    section.section-three {
+      div > div {
+        .image-currency,
+        .image-restaurant,
+        .image-plane,
+        .image-confetti {
+          height: 300px;
+        }
+      }
+    }
+    footer {
+      padding: 0px $plr;
     }
   }
 }

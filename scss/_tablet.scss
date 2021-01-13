@@ -61,22 +61,24 @@
       display: flex;
       flex-direction: column;
       text-align: left;
+      h3 {
+        margin: 0px;
+      }
+      p {
+        font-size: small;
+        line-height: 1.5;
+      }
       .section-two-sub-two {
         display: flex;
         justify-content: space-between;
         width: 100%;
+
         div {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           flex-basis: 20%;
-          h3 {
-            margin: 0px;
-          }
-          p {
-            font-size: small;
-            line-height: 1.5;
-          }
+
           img {
             margin-left: 0px;
           }
@@ -136,7 +138,9 @@
           width: 100%;
         }
       }
-
+      .footer-subsection-one {
+        width: 20%;
+      }
       .footer-subsection-one {
         .svg-icons {
           width: 100%;

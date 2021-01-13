@@ -90,13 +90,13 @@ nav {
     p {
       color: $Grayish-Blue;
     }
+    h3 {
+      font-size: 20px;
+      margin: 10px;
+    }
     div {
       img {
         margin: 30px;
-      }
-      h3 {
-        font-size: 20px;
-        margin: 10px;
       }
     }
   }
@@ -123,6 +123,14 @@ nav {
       }
       .image-confetti {
         background: url("../images/image-confetti.jpg");
+      }
+
+      .image-currency,
+      .image-restaurant,
+      .image-plane,
+      .image-confetti {
+        height: 289px;
+        background-size: 100% 100%;
       }
       div {
         small,
@@ -153,6 +161,15 @@ nav {
     padding: 50px;
     background-color: $Dark-Blue;
     color: white;
+    .footer-subsection-one,
+    .footer-subsection-three {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-subsection-one {
+      width: 100%;
+    }
     path.easy-bank {
       fill: white;
     }
@@ -168,7 +185,7 @@ nav {
       display: flex;
       justify-content: space-around;
       padding: 0px 10px;
-      width: 80%;
+      width: 100%;
     }
     button {
       margin-bottom: 30px;
