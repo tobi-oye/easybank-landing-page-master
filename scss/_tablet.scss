@@ -1,3 +1,4 @@
+$Lime-Green: hsl(136, 65%, 51%);
 @media screen and (min-width: 700px) {
   .container {
     position: relative;
@@ -113,6 +114,10 @@
             h4 {
               margin-bottom: 0px;
             }
+            h4:hover {
+              color: $Lime-Green;
+              cursor: pointer;
+            }
           }
         }
       }
@@ -124,6 +129,9 @@
       flex-direction: row;
       justify-content: space-between;
       padding: 0px 20px;
+      li:hover {
+        color: $Lime-Green;
+      }
       div.footer-subsection-two {
         width: 50%;
         display: flex;
